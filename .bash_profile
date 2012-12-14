@@ -1,5 +1,6 @@
 PATH="/usr/local/bin:/usr/local/subversion/bin:$PATH"
-PATH="/android-sdk-mac_x86/platform-tools:$PATH"
+PATH="/tools/android-sdks/platform-tools:$PATH"
+PATH="/tools/android-sdks/tools:$PATH"
 export PATH
 
 ##
@@ -8,6 +9,8 @@ export PATH
 
 # MacPorts Installer addition on 2011-09-05_at_15:22:32: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export ANDROID_NDK_ROOT='/tools/android-ndk'
+export NDK_ROOT='/tools/android-ndk'
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 
@@ -63,9 +66,24 @@ fi
 unset color_prompt force_color_prompt
 
 export mamp=/Applications/MAMP/bin/mamp
+export www=/Applications/MAMP/htdocs
 export nm=~/Desktop/nm/scripts
 export db=~/Dropbox/Projects/
 export taxi=/Projects/TaxiPlus/TaxiPlus/
 export fun=/Projects/Funsip/
 
+export cchsm='/tools/closure.jar --js soundmanager2.js --js NumberMaze.js --js AssetManager.js --js PxLoader.js --js PxLoaderImage.js --js PxLoaderSound.js --js PxLoaderJson.js --js AudioManager.js --js profiles/GPlusWrapper.js --js profiles/FBWrapper.js --js StarField.js --js State.js --js UIManager.js --js LetterSprite.js --js GameLine.js --js GridLayer.js --js HUDLayer.js --js Score.js --js CoreEngine.js --js MainMenu.js --js Credits.js --js LBoard.js --js PauseScreen.js --js GameOver.js --js WonScreen.js --js MenuButton.js --js PracticeGame.js --js PractiseFail.js --js_output_file min.js'
+export ccttt='/tools/closure.jar --js TicTacToe.js --js FBWrapper.js --js TwitterWrapper.js --js AudioManager.js --js InputManager.js --js GameState.js --js GameLogic.js --js BoardTile.js --js GameBoard.js --js GameManager.js --js_output_file min.js'
+
+export JAVA_HOME=`/usr/libexec/java_home`
+
 shopt -s cdable_vars
+
+##
+# Your previous /Users/IOS1/.bash_profile file was backed up as /Users/IOS1/.bash_profile.macports-saved_2012-08-24_at_16:21:12
+##
+
+# MacPorts Installer addition on 2012-08-24_at_16:21:12: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
