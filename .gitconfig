@@ -1,0 +1,36 @@
+[user]
+	name = saiy2k
+	email = saiy2k@gmail.com
+[core]
+	excludesfiles = /Users/IOS1/.gitignore
+	exludesfile = /Users/IOS1/.gitignore
+	excludesfile = /Users/IOS1/.gitignore
+[alias]
+    ga='git add'
+    gp='git push'
+    gl='git log'
+    gs='git status'
+    gd='git diff'
+    gdc='git diff --cached'
+    gm='git commit -m'
+    gma='git commit -am'
+    gb='git branch'
+    gc='git checkout'
+    gra='git remote add'
+    grr='git remote rm'
+    gpu='git pull'
+    gcl='git clone'
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+    lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+    ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+    le = log --oneline --decorate
+    la = "!git config -l | grep alias | cut -c 7-"
+    cp = cherry-pick
+    st = status -s
+    cl = clone
+    ci = commit
+    co = checkout
+    br = branch 
+    diff = diff --word-diff
+    dc = diff --cached
