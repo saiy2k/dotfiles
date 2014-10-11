@@ -64,3 +64,5 @@ highlight   Pmenu         ctermfg=0 ctermbg=2
 highlight   PmenuSel      ctermfg=0 ctermbg=7
 highlight   PmenuSbar     ctermfg=7 ctermbg=0
 highlight   PmenuThumb    ctermfg=0 ctermbg=7
+
+let g:user_emmet_mode='n'
