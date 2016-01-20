@@ -9,8 +9,8 @@ export PATH
 
 # MacPorts Installer addition on 2011-09-05_at_15:22:32: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-export ANDROID_NDK_ROOT='/tools/android-ndk'
-export NDK_ROOT='/tools/android-ndk'
+export ANDROID_NDK_ROOT='~/projects/tools/android-ndk-r10c/'
+export NDK_ROOT='~/projects/tools/android-ndk-r10c/'
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 
@@ -87,3 +87,24 @@ shopt -s cdable_vars
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+
+# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
+export COCOS_CONSOLE_ROOT=/Users/saiy2k/projects/tools/cocos2d-x-3.8.1/tools/cocos2d-console/bin
+export PATH=$COCOS_CONSOLE_ROOT:$PATH
+
+# Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
+export COCOS_TEMPLATES_ROOT=/Users/saiy2k/projects/tools/cocos2d-x-3.8.1/templates
+export PATH=$COCOS_TEMPLATES_ROOT:$PATH
+
+# Add environment variable ANDROID_SDK_ROOT for cocos2d-x
+export ANDROID_SDK_ROOT=/Users/saiy2k/Library/Android/sdk
+export PATH=$ANDROID_SDK_ROOT:$PATH
+export PATH=$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$PATH
+
+# Add environment variable ANT_ROOT for cocos2d-x
+export ANT_ROOT=/opt/local/share/java/apache-ant/bin
+export PATH=$ANT_ROOT:$PATH
+
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8

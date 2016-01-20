@@ -1,4 +1,4 @@
-call pathogen#infect() 
+"call pathogen#infect() 
 
 syntax enable
 set nocompatible                " choose no compatibility with legacy vi
