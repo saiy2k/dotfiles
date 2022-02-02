@@ -1,10 +1,6 @@
 [user]
 	name = saiy2k
 	email = saiy2k@gmail.com
-[core]
-	excludesfiles = /Users/IOS1/.gitignore
-	exludesfile = /Users/IOS1/.gitignore
-	excludesfile = /Users/IOS1/.gitignore
 [alias]
     ga='git add'
     gp='git push'

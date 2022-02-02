@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/'
-let g:netrw_dirhist_2='/Applications/MAMP/htdocs/temp'
-let g:netrw_dirhist_3='/Users/saiy2k/projects/game/ggps/frameworks/runtime-src/proj.android/jni'
